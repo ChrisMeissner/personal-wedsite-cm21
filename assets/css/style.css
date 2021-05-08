@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: 
-  --secondary-color: 
+  --primary-color: #FFFFFF;
+  --secondary-color: #000000;
   --tertiary-color: 
   --primary-color-transparent: 
   --secondary-color-transparent: 
@@ -26,10 +26,11 @@ header {
   position: -webkit-sticky;
   top: 0;
   z-index: 9999;
+  background-color: var(--primary-color);
 }
 
 header h1 {
-
+  font-size: 45px;
 }
 
 header nav {
@@ -38,17 +39,25 @@ header nav {
   justify-content: space-between;
   align-items: center;
   width: 40%;
-  font-size: 30;
+  font-size: 20px;
+  font-weight: 1000;
 }
 
 header a {
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
-.hero img {
-  background-image: url('../images/Santa-Monica-film.JPG');
-  background-attachment: fixed;
-  background-size: cover;
+section {
+  padding: 10px 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
 }
 
 .photo {
@@ -62,7 +71,7 @@ header a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .video {
