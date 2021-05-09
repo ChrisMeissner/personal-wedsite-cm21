@@ -55,16 +55,25 @@ section {
 .gallery {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 70%;
+  height: 50%;
 }
 
-.photo {
+.photo-one {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: bottom;
+  object-fit: fill;
+}
+
+.photo-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
+  object-fit: fill;
 }
 
 .photos {
@@ -72,18 +81,47 @@ section {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  width: 95%;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .video {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0px;
 }
 
 .contact {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact img {
+  float: left;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.contact-bio {
+  float: right;
+  font-size: 25px;
+  width: 60%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 10%;
 }
