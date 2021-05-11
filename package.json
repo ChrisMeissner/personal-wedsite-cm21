@@ -1,0 +1,19 @@
+{
+  "name": "personal-wedsite-cm21",
+  "version": "1.0.0",
+  "description": "The website of Chris Meissner, photographer and video maker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisMeissner/personal-wedsite-cm21.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisMeissner/personal-wedsite-cm21/issues"
+  },
+  "homepage": "https://github.com/ChrisMeissner/personal-wedsite-cm21#readme"
+}
